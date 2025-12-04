@@ -8,13 +8,35 @@
     </head>
 
     <body>
+      <h1>Poems</h1>
+      <hr>
+
+      <!-- Create new entries -->
+      <h2>New Entry</h2>
+      <form>
+         <div>
+            <label for="post-title">Title</label><br>
+            <input type="text" id="post-title" required style="width: 50%; margin-bottom: 10px;">
+        </div>
+        <div>
+            <label for="post-content">Content</label><br>
+            <textarea id="post-content" rows="4" required style="width: 50%; margin-bottom: 10px;"></textarea>
+        </div>
+        <button type="submit" id="submit-button">Publish</button>
+      </form>
+
+
+
+
       <div class="container">
             <header>
                <nav>
                   <a href="../index.html">Home</a>
                </nav>
             </header>
+      </div>
 
+        <!-- Published entries -->    
             <main>
                <section>
                   <h2>
@@ -27,6 +49,6 @@
                <hr>
             </main>
 
-      </div>
+
     </body>
 </html>
